@@ -1,0 +1,695 @@
+2023-08-20 10:28:06,250 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-20 10:33:55,764 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-08-20 10:33:56,269 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.pom
+2023-08-20 10:33:56,412 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.pom
+2023-08-20 10:33:56,498 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway/4.0.7/spring-cloud-gateway-4.0.7.pom
+2023-08-20 10:33:56,652 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway/4.0.7/spring-cloud-gateway-4.0.7.pom
+2023-08-20 10:33:56,833 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.pom
+2023-08-20 10:33:56,931 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.pom
+2023-08-20 10:33:57,023 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2.pom
+2023-08-20 10:33:57,119 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2.pom
+2023-08-20 10:33:57,193 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.pom
+2023-08-20 10:33:57,301 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.pom
+2023-08-20 10:33:57,362 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.1.Final/hibernate-validator-parent-8.0.1.Final.pom
+2023-08-20 10:33:57,571 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/8.0.1.Final/hibernate-validator-parent-8.0.1.Final.pom
+2023-08-20 10:33:57,739 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom
+2023-08-20 10:33:57,835 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom
+2023-08-20 10:33:57,950 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2.pom
+2023-08-20 10:33:58,024 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2.pom
+2023-08-20 10:33:58,117 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2.pom
+2023-08-20 10:33:58,195 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2.pom
+2023-08-20 10:33:58,247 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9.pom
+2023-08-20 10:33:58,390 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9.pom
+2023-08-20 10:33:58,658 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9.pom
+2023-08-20 10:33:58,756 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9.pom
+2023-08-20 10:33:58,847 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11.pom
+2023-08-20 10:33:58,941 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11.pom
+2023-08-20 10:33:59,009 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3.pom
+2023-08-20 10:33:59,083 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3.pom
+2023-08-20 10:33:59,243 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2.pom
+2023-08-20 10:33:59,333 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2.pom
+2023-08-20 10:33:59,478 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar
+2023-08-20 10:33:59,704 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.jar
+2023-08-20 10:33:59,704 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar
+2023-08-20 10:33:59,704 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2.jar
+2023-08-20 10:33:59,704 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.jar
+2023-08-20 10:34:00,007 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7.jar
+2023-08-20 10:34:00,047 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2.jar
+2023-08-20 10:34:00,142 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar
+2023-08-20 10:34:00,175 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2.jar
+2023-08-20 10:34:00,265 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2.jar
+2023-08-20 10:34:00,377 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9.jar
+2023-08-20 10:34:00,412 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2.jar
+2023-08-20 10:34:00,619 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2.jar
+2023-08-20 10:34:00,761 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9.jar
+2023-08-20 10:34:00,883 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11.jar
+2023-08-20 10:34:01,224 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7.jar
+2023-08-20 10:34:01,552 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3.jar
+2023-08-20 10:34:01,926 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9.jar
+2023-08-20 10:34:02,054 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3.jar
+2023-08-20 10:34:02,387 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9.jar
+2023-08-20 10:34:02,407 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2.jar
+2023-08-20 10:34:02,561 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar
+2023-08-20 10:34:02,595 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11.jar
+2023-08-20 10:34:02,655 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2.jar
+2023-08-20 10:34:03,208 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2023-08-20 10:34:03,208 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-08-20 10:34:03,218 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-08-20 10:34:03,231 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2023-08-20 10:34:04,422 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7-sources.jar
+2023-08-20 10:34:04,426 [Worker-5: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:4.0.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:4.0.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-08-20 10:34:04,712 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7-sources.jar
+2023-08-20 10:34:04,997 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2023-08-20 10:34:05,001 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-08-20 10:34:05,170 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-gateway-server/4.0.7/spring-cloud-gateway-server-4.0.7-sources.jar
+2023-08-20 10:34:05,173 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-gateway-server:4.0.7
+2023-08-20 10:34:05,174 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-08-20 10:34:05,406 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2-sources.jar
+2023-08-20 10:34:05,576 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/3.1.2/spring-boot-starter-validation-3.1.2-sources.jar
+2023-08-20 10:34:05,579 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-validation:3.1.2
+2023-08-20 10:34:05,666 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2023-08-20 10:34:05,667 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-08-20 10:34:05,667 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-08-20 10:34:05,667 [Worker-3: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2023-08-20 10:34:05,798 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final-sources.jar
+2023-08-20 10:34:06,230 [Worker-3: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-08-20 10:34:06,428 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final-sources.jar
+2023-08-20 10:34:06,431 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:8.0.1.Final
+2023-08-20 10:34:06,641 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final-sources.jar
+2023-08-20 10:34:07,267 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final-sources.jar
+2023-08-20 10:34:07,270 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.5.3.Final
+2023-08-20 10:34:07,493 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2-sources.jar
+2023-08-20 10:34:07,617 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webflux/3.1.2/spring-boot-starter-webflux-3.1.2-sources.jar
+2023-08-20 10:34:07,620 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-webflux:3.1.2
+2023-08-20 10:34:07,837 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2-sources.jar
+2023-08-20 10:34:07,970 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.2/spring-boot-starter-reactor-netty-3.1.2-sources.jar
+2023-08-20 10:34:07,972 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-reactor-netty:3.1.2
+2023-08-20 10:34:08,221 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9-sources.jar
+2023-08-20 10:34:08,633 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.1.9/reactor-netty-http-1.1.9-sources.jar
+2023-08-20 10:34:08,636 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.netty:reactor-netty-http:1.1.9
+2023-08-20 10:34:08,867 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9-sources.jar
+2023-08-20 10:34:09,423 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.1.9/reactor-netty-core-1.1.9-sources.jar
+2023-08-20 10:34:09,425 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor.netty:reactor-netty-core:1.1.9
+2023-08-20 10:34:09,689 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11-sources.jar
+2023-08-20 10:34:10,264 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webflux/6.0.11/spring-webflux-6.0.11-sources.jar
+2023-08-20 10:34:10,267 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webflux:6.0.11
+2023-08-20 10:34:10,723 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3-sources.jar
+2023-08-20 10:34:10,725 [Worker-5: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-08-20 10:34:10,954 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2-sources.jar
+2023-08-20 10:34:11,188 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.1.2/spring-boot-devtools-3.1.2-sources.jar
+2023-08-20 10:34:11,190 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.1.2
+2023-08-20 10:38:33,889 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-08-20 10:38:34,311 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:38:34,312 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:38:34,315 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:38:35,473 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-20 10:38:35,484 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:38:35,488 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:38:35,569 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7-javadoc.jar
+2023-08-20 10:38:35,721 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-gateway/4.0.7/spring-cloud-starter-gateway-4.0.7-javadoc.jar
+2023-08-20 10:38:35,726 [Worker-16: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter-gateway:4.0.7
+2023-08-20 10:38:36,292 [Worker-16: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.3/spring-cloud-starter-netflix-eureka-client-4.0.3-javadoc.jar
+2023-08-20 10:38:36,295 [Worker-16: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.0.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.0.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:587)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:556)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:541)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2023-08-20 10:38:36,659 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:38:36,659 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:38:36,660 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:43:29,052 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-20 10:43:29,057 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:43:29,060 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:45:44,199 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-20 10:45:44,202 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:45:44,205 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:45:50,106 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-20 10:45:50,110 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:45:50,111 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:46:19,396 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-20 10:46:19,403 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-20 10:46:19,405 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-20 10:47:25,980 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-08-20 10:47:30,881 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2023-08-20 10:47:30,883 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-08-20 10:47:30,883 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-08-20 10:47:30,884 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-08-20 10:47:30,885 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-08-20 10:47:30,886 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-08-20 10:47:30,887 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-08-20 10:47:30,887 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-08-20 10:47:30,887 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-08-20 10:47:30,887 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-08-20 10:47:30,887 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2023-08-20 10:47:30,888 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-08-20 10:47:30,888 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2023-08-20 10:47:30,889 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-08-20 10:47:30,889 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2023-08-20 10:47:30,889 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-08-20 10:47:30,889 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2023-08-20 10:47:30,890 [Worker-22: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-08-20 10:47:30,892 [Worker-22: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-08-20 10:47:30,894 [Worker-22: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-08-21 10:20:25,465 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-21 10:20:29,614 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-08-21 10:20:29,638 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-08-21 10:20:29,643 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-08-22 15:06:52,345 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-08-29 09:33:12,633 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-05 18:47:21,182 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:47:21,308 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:47:21,312 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-05 18:47:33,652 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-05 18:47:33,920 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2023-09-05 18:47:34,064 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-09-05 18:47:34,065 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-09-05 18:47:34,066 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-09-05 18:47:34,067 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-09-05 18:47:34,067 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-09-05 18:47:34,067 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-09-05 18:47:34,067 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-09-05 18:47:34,068 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-09-05 18:47:34,068 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-09-05 18:47:34,068 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-09-05 18:47:34,069 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-09-05 18:47:34,069 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-09-05 18:47:34,069 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-09-05 18:47:34,069 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-09-05 18:47:34,069 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-09-05 18:47:34,072 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-05 18:47:34,072 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-05 18:47:34,072 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-09-05 18:47:34,072 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-09-05 18:47:34,072 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-09-05 18:47:34,073 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-09-05 18:47:34,074 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2023-09-05 18:47:34,076 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-09-05 18:47:34,076 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2023-09-05 18:47:34,076 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-09-05 18:47:34,076 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2023-09-05 18:47:34,169 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-05 18:47:34,169 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2023-09-05 18:47:34,170 [Worker-493: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-09-05 18:47:34,173 [Worker-493: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 18:47:34,173 [Worker-493: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-05 18:55:15,191 [Worker-499: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 18:55:15,192 [Worker-499: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-05 18:55:33,493 [Worker-506: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:55:33,493 [Worker-506: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:55:33,495 [Worker-506: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-05 18:55:47,976 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:55:47,989 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:55:47,991 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-05 18:55:55,199 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-05 18:55:55,227 [Worker-504: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 18:55:55,227 [Worker-504: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-05 18:56:07,448 [Worker-506: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 18:56:07,448 [Worker-506: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-09-05 18:56:09,205 [Worker-508: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:56:09,216 [Worker-508: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:56:09,219 [Worker-508: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-05 18:56:15,402 [Worker-507: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 18:56:15,403 [Worker-507: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-05 18:56:29,689 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 18:56:29,691 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 18:56:29,694 [Worker-499: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-05 19:05:27,971 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-05 19:05:28,008 [Worker-500: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-05 19:05:28,008 [Worker-500: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-05 19:18:46,713 [Worker-516: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-05 19:18:46,763 [Worker-516: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-05 19:18:46,765 [Worker-516: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-09 15:43:57,519 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-09 15:43:57,602 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-09 15:43:57,612 [Worker-719: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-09 15:44:14,310 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-09 15:44:14,489 [Worker-721: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-09 15:44:14,489 [Worker-721: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-09 15:59:49,133 [Worker-733: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-09 15:59:49,150 [Worker-733: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-09 15:59:49,154 [Worker-733: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-09 16:00:00,204 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-09 16:00:00,215 [Worker-732: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-09 16:00:00,216 [Worker-732: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-09 16:01:06,056 [Worker-735: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-09 16:01:06,184 [Worker-735: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-09 16:01:06,188 [Worker-735: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-09 16:01:23,597 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-09 16:01:23,636 [Worker-735: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-09 16:01:23,636 [Worker-735: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-12 11:05:47,598 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-12 11:05:55,637 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-12 11:05:55,657 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-12 11:05:55,662 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-19 15:45:27,110 [Worker-449: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-19 15:45:27,381 [Worker-449: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-19 15:45:27,385 [Worker-449: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-19 16:16:43,621 [Worker-459: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-19 16:16:43,638 [Worker-459: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-19 16:16:43,642 [Worker-459: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-19 16:17:09,020 [Worker-448: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-19 16:17:09,064 [Worker-448: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-19 16:17:09,067 [Worker-448: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:22:45,926 [Worker-482: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-09-20 10:22:47,773 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:22:47,773 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:22:47,777 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:22:49,076 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:22:49,098 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:22:49,103 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:23:20,021 [Worker-483: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:23:20,128 [Worker-483: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:23:20,133 [Worker-483: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:23:45,259 [Worker-486: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-09-20 10:23:45,992 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:23:45,992 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:23:45,995 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:23:47,584 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:23:47,607 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:23:47,610 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:24:45,351 [Worker-479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:24:45,356 [Worker-479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:24:45,360 [Worker-479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:25:08,354 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:25:08,358 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:25:08,361 [Worker-484: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:27:38,778 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:27:38,783 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:27:38,789 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:27:47,896 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:27:47,907 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:27:47,911 [Worker-486: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:29:06,756 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:29:06,760 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:29:06,763 [Worker-482: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:30:25,550 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:30:25,555 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:30:25,560 [Worker-485: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:33:08,046 [Worker-491: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:33:08,051 [Worker-491: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:33:08,055 [Worker-491: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:36:11,996 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:36:12,002 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:36:12,006 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:36:47,250 [Worker-494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:36:47,257 [Worker-494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:36:47,260 [Worker-494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:51:49,246 [Worker-496: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:51:49,254 [Worker-496: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:51:49,258 [Worker-496: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:54:58,713 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:54:58,720 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:54:58,722 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:56:00,836 [Worker-502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:56:00,841 [Worker-502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:56:00,844 [Worker-502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:56:13,561 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:56:13,565 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:56:13,567 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 10:59:20,558 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 10:59:20,563 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 10:59:20,566 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:00:46,001 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:00:46,009 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:00:46,013 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:01:44,649 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:01:44,656 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:01:44,658 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:02:15,825 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:02:15,831 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:02:15,833 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:02:19,927 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:02:19,933 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:02:19,935 [Worker-501: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:05:35,802 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:05:35,806 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:05:35,809 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:06:53,457 [Worker-500: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:06:53,462 [Worker-500: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:06:53,464 [Worker-500: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:07:22,006 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:07:22,012 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:07:22,015 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:09:10,552 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:09:10,558 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:09:10,561 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:13:31,551 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:13:31,556 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:13:31,558 [Worker-498: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:14:19,675 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:14:19,680 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:14:19,681 [Worker-492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:22:01,415 [Worker-510: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:22:01,425 [Worker-510: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:22:01,427 [Worker-510: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:40:04,744 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-20 11:40:04,824 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [345])
+2023-09-20 11:40:04,837 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-09-20 11:40:04,838 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-09-20 11:40:04,838 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-09-20 11:40:04,838 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-09-20 11:40:04,838 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-09-20 11:40:04,838 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-09-20 11:40:04,839 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-09-20 11:40:04,840 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-09-20 11:40:04,840 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-09-20 11:40:04,840 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-09-20 11:40:04,840 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-09-20 11:40:04,841 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-09-20 11:40:04,842 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-09-20 11:40:04,843 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-09-20 11:40:04,844 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [22])
+2023-09-20 11:40:04,846 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-09-20 11:40:04,846 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [584])
+2023-09-20 11:40:04,847 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\slf4j.api_1.7.36.jar
+2023-09-20 11:40:04,847 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [49])
+2023-09-20 11:40:04,847 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-09-20 11:40:04,847 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [47])
+2023-09-20 11:40:05,030 [Worker-513: Launching api-gateway] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-09-20 11:40:05,033 [Worker-513: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:40:05,033 [Worker-513: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-20 11:45:13,632 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:45:13,644 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:45:13,646 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:45:25,816 [Worker-518: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:45:25,816 [Worker-518: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-09-20 11:45:37,093 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:45:37,094 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:45:37,096 [Worker-519: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:46:13,282 [Worker-517: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 11:46:13,284 [Worker-517: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 11:46:13,288 [Worker-517: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 11:46:42,103 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-20 11:46:42,604 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-09-20 11:46:45,624 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2023-09-20 11:46:45,624 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-09-20 11:46:45,625 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-09-20 11:46:45,625 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2023-09-20 11:46:46,174 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 0.00 sec 
+2023-09-20 11:47:02,364 [Worker-517: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:47:02,364 [Worker-517: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-20 11:50:12,871 [Worker-516: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:50:12,871 [Worker-516: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-20 11:53:54,046 [Worker-522: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:53:54,046 [Worker-522: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-20 11:55:29,652 [Worker-522: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 11:55:29,652 [Worker-522: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-20 12:49:00,979 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-20 12:49:00,989 [Worker-541: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 12:49:00,990 [Worker-541: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-20 14:21:06,448 [Worker-537: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 14:21:06,448 [Worker-537: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-09-20 14:21:26,986 [Worker-543: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-09-20 14:21:27,136 [Worker-543: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-09-20 14:21:27,806 [Worker-543: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2023-09-20 14:21:27,807 [Worker-543: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-09-20 14:21:27,807 [Worker-543: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2023-09-20 14:21:27,807 [Worker-543: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2023-09-20 14:21:28,159 [Worker-543: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-09-20 14:21:41,878 [Worker-546: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-20 14:21:41,878 [Worker-546: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-20 18:11:44,132 [Worker-568: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.apiGateway:api-gateway:0.0.1-SNAPSHOT @ C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\pom.xml.
+2023-09-20 18:11:44,940 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 18:11:44,940 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 18:11:44,942 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 18:11:46,171 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 18:11:46,183 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 18:11:46,185 [Worker-568: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 18:12:34,973 [Worker-569: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 18:12:34,980 [Worker-569: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 18:12:34,983 [Worker-569: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 18:35:50,635 [Worker-581: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 18:35:50,675 [Worker-581: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 18:35:50,678 [Worker-581: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 19:43:27,011 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 19:43:27,026 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 19:43:27,028 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 19:45:26,675 [Worker-598: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 19:45:26,692 [Worker-598: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 19:45:26,694 [Worker-598: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 19:52:35,915 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 19:52:35,921 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 19:52:35,922 [Worker-600: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 19:53:43,619 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 19:53:43,677 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 19:53:43,679 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 19:53:51,543 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 19:53:51,598 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 19:53:51,599 [Worker-594: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-20 20:21:54,565 [Worker-602: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-20 20:21:54,576 [Worker-602: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-20 20:21:54,578 [Worker-602: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-21 08:33:21,830 [Worker-604: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-21 08:33:21,835 [Worker-604: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-21 08:33:21,837 [Worker-604: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-21 08:35:51,734 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-21 08:35:51,746 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-21 08:35:51,748 [Worker-607: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-21 08:36:24,406 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-21 08:36:24,412 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-21 08:36:24,416 [Worker-611: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:30:54,904 [Worker-579: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:30:55,046 [Worker-579: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:30:55,048 [Worker-579: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:32:41,710 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:32:41,775 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:32:41,777 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:32:52,238 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2023-09-22 11:32:52,291 [Worker-632: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-22 11:32:52,291 [Worker-632: Launching api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-09-22 11:34:51,351 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:34:51,457 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:34:51,485 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:34:52,511 [Worker-629: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:34:52,564 [Worker-629: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:34:52,566 [Worker-629: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:36:27,258 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:36:27,297 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:36:27,299 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:37:52,330 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:37:52,342 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:37:52,344 [Worker-625: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:40:48,715 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:40:48,720 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:40:48,722 [Worker-618: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:44:46,565 [Worker-634: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-22 11:44:46,565 [Worker-634: Launching Executing clean in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always clean
+2023-09-22 11:44:48,597 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:44:48,600 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:44:48,606 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:45:14,129 [Worker-635: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway":
+2023-09-22 11:45:14,129 [Worker-635: Launching Executing install in C__Users_158563_Documents_practice_InterviewFeedbackSystem_BackEnd_ApiGateway_api-gateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always install
+2023-09-22 11:45:37,648 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:45:37,655 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:45:37,657 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:47:43,831 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:47:43,836 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:47:43,839 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:49:00,246 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:49:00,251 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:49:00,253 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:49:38,203 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:49:38,207 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:49:38,208 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:50:20,697 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:50:20,753 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:50:20,754 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:50:53,902 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:50:53,918 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:50:53,921 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:51:21,985 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:51:21,994 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:51:21,995 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:51:45,141 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:51:45,146 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:51:45,150 [Worker-631: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:52:07,058 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:52:07,109 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:52:07,111 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:52:19,153 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:52:19,158 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:52:19,161 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:52:41,364 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:52:41,423 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:52:41,425 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:53:00,401 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:53:00,404 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:53:00,405 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:54:37,152 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:54:37,156 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:54:37,157 [Worker-626: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:55:59,220 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:55:59,225 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:55:59,226 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 11:57:27,010 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 11:57:27,022 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 11:57:27,025 [Worker-634: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:01:01,501 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:01:01,515 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:01:01,518 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:01:24,425 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:01:24,429 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:01:24,430 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:21:35,070 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:21:35,084 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:21:35,085 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:22:18,127 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:22:18,133 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:22:18,135 [Worker-640: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:22:54,192 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:22:54,195 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:22:54,197 [Worker-635: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:25:27,433 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:25:27,438 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:25:27,440 [Worker-642: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:38:48,418 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:38:48,433 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:38:48,435 [Worker-636: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 12:44:17,669 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 12:44:17,675 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 12:44:17,677 [Worker-648: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 15:12:42,337 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 15:12:42,350 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 15:12:42,352 [Worker-658: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-22 15:12:49,932 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-22 15:12:49,937 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-22 15:12:49,939 [Worker-656: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-24 11:11:39,727 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-24 11:11:39,975 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-24 11:11:39,977 [Worker-695: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-24 15:06:44,573 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-24 15:06:44,691 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-24 15:06:44,695 [Worker-718: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-24 16:08:18,126 [Worker-618: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-24 16:08:18,147 [Worker-618: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-24 16:08:18,152 [Worker-618: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-25 10:29:20,561 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-25 10:38:52,474 [Worker-0: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-25 10:38:52,603 [Worker-0: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-25 10:38:52,608 [Worker-0: Launching api-gateway - ApiGatewayApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources
+2023-09-25 18:27:56,592 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-09-25 18:27:56,667 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-09-25 18:27:56,672 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ApiGateway\api-gateway\src\test\resources

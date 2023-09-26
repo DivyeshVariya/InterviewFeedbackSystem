@@ -1,0 +1,8 @@
+1693627671760	Rename type 'EmailManagerService'
+1693627700110	Rename type 'EmailManagerServiceImpl'
+1693630126154	Rename compilation unit 'EmailManagerController.java'
+1693631289865	Rename type 'ConfigMailNotFound'
+1693643391320	Rename type 'NewMailAdminDto'
+1693650133794	Rename type 'EmailController'
+1693657195230	Rename type 'ConfigLoggerAspact'
+1693657213949	Rename package 'com.emailService.aspact'

@@ -1,0 +1,63 @@
+package com.userService.controller;
+
+import java.time.LocalDateTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.userService.dto.LoginResponseDto;
+import com.userService.dto.ResponseDto;
+import com.userService.dto.UserLoginRequestDto;
+import com.userService.dto.UserRegisterRequestDto;
+import com.userService.exception.ErrorDetailsForException;
+import com.userService.service.UserAuthService;
+
+import jakarta.validation.Valid;
+
+@RestController
+@RequestMapping("/userAuth")
+public class UserAuthController {
+	
+	@Autowired
+	UserAuthService usersManagerService;
+	
+	@PostMapping("/register-user")
+	public ResponseEntity<ResponseDto> registerUser(@Valid @RequestBody UserRegisterRequestDto userRegisterDto)
+	{
+		return new ResponseEntity<>(usersManagerService.register(userRegisterDto),HttpStatus.OK);
+	}
+	
+	@PostMapping("/user-login")
+	public ResponseEntity<LoginResponseDto> userLogin(@Valid @RequestBody UserLoginRequestDto userLoginDto)
+	{
+		return new ResponseEntity<>(usersManagerService.Login(userLoginDto),HttpStatus.OK);
+	}
+	
+	@PostMapping("/logout")
+	public ResponseEntity<ResponseDto> userLogout()
+	{
+		ResponseDto responseDto=new ResponseDto();
+		responseDto.setResponseCode(HttpStatus.OK.value());
+		responseDto.setResponseMessage("User logout successfully....");
+		return new ResponseEntity<>(responseDto,HttpStatus.OK);
+	}
+	
+	@GetMapping("/resolveException")
+	public ResponseEntity<ErrorDetailsForException> userLogout1(@RequestParam("requestUrl") String requestUrl,@RequestParam("message") String message,@RequestParam("errorCode") String errorCode)
+	{
+		ErrorDetailsForException errorDetailsForException=new ErrorDetailsForException();
+		errorDetailsForException.setErrorCode(errorCode);
+		errorDetailsForException.setMessage(message);
+		errorDetailsForException.setPath(requestUrl);
+		errorDetailsForException.setTimestamp(LocalDateTime.now());
+		return new ResponseEntity<>(errorDetailsForException,HttpStatus.BAD_REQUEST);
+	}
+
+}

@@ -1,0 +1,9 @@
+1692525682449	Rename type 'ManageId'
+1692596607227	Rename type 'UsersRepository'
+1692602000934	Rename type 'UserController'
+1692781545847	Move compilation unit
+1692796091841	Delete element
+1692857808939	Rename type 'UsersManagerService'
+1692857831699	Rename type 'UserManagerServiceImpl'
+1692858167515	Rename type 'UserLoginDto'
+1692858181405	Rename type 'UserRegisterDto'

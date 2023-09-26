@@ -1,0 +1,5 @@
+package com.userService.exception;
+
+public class FailToRegisterException extends Exception {
+
+}

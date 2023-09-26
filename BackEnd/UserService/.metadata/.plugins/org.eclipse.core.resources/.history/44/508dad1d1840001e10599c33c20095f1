@@ -1,0 +1,67 @@
+package com.userService.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.userService.config.CustomUserDetails;
+import com.userService.config.CustomUserDetailsService;
+import com.userService.dto.LoginResponseDto;
+import com.userService.dto.ResponseDto;
+import com.userService.dto.UserLoginDto;
+import com.userService.dto.UserRegisterDto;
+import com.userService.jwt.JwtHelper;
+import com.userService.service.UsersManagerService;
+
+@RestController
+@RequestMapping("/userAuth")
+public class UserAuthController {
+	
+	@Autowired
+	UsersManagerService usersManagerService;
+	
+	@Autowired
+	AuthenticationManager authenticationManager;
+	
+	@Autowired
+	CustomUserDetailsService customUserDetailsService;
+	
+	@Autowired
+	JwtHelper jwtHelper;
+	
+	@PostMapping("/register-user")
+	public ResponseEntity<ResponseDto> registerUser(@RequestBody UserRegisterDto userRegisterDto)
+	{
+		return new ResponseEntity<>(usersManagerService.register(userRegisterDto),HttpStatus.OK);
+	}
+	
+	@PostMapping("/user-login")
+	public ResponseEntity<LoginResponseDto> userLogin(@RequestBody UserLoginDto userLoginDto)
+	{
+		UsernamePasswordAuthenticationToken authentication=new UsernamePasswordAuthenticationToken(userLoginDto.getUserEmailId(), userLoginDto.getUserPassword());
+		try
+		{
+			authenticationManager.authenticate(authentication);
+			UserDetails UserDetails=customUserDetailsService.loadUserByUsername(userLoginDto.getUserEmailId());
+			String token =this.jwtHelper.generateToken(UserDetails);
+			LoginResponseDto loginResponseDto=new LoginResponseDto();
+			loginResponseDto.setJwtToken(token);
+			loginResponseDto.setResponseCode(HttpStatus.OK.value());
+			loginResponseDto.setResponseMessage("Login Successfully...");
+			return new ResponseEntity<LoginResponseDto>(loginResponseDto,HttpStatus.OK);
+		}
+		catch(BadCredentialsException e)
+		{
+			throw new RuntimeException("Invaild username or password...");
+		}
+	}
+
+}

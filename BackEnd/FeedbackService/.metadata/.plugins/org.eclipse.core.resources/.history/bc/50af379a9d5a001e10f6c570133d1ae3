@@ -1,0 +1,5 @@
+package com.feedbackService.exception;
+
+public class UnauthorizedAccessException extends Exception {
+
+}

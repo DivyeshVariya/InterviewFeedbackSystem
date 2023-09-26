@@ -1,0 +1,14 @@
+server.port=8888
+spring.application.name=API-GATEWAY
+eureka.instance.client.serverUrl.defaultZone=http://localhost:8761/eureka/
+
+#for email service
+spring.cloud.gateway.routes[0].id=EMAIL-SERVICE
+spring.cloud.gateway.routes[0].uri=lb://EMAIL-SERVICE
+spring.cloud.gateway.routes[0].predicates[0]=Path=/emailManager/**
+
+#for user service
+spring.cloud.gateway.routes[1].id=USER-SERVICE
+spring.cloud.gateway.routes[1].uri=lb://USER-SERVICE
+spring.cloud.gateway.routes[1].predicates[0]=Path=/userAuth/**
+spring.cloud.gateway.routes[1].predicates[1]=Path=/userManager/**

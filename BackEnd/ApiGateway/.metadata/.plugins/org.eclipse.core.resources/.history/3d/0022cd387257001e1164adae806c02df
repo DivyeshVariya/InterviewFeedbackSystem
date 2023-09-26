@@ -1,0 +1,5 @@
+package com.apiGateway.exception;
+
+public class GlobalExceptionHandler {
+
+}

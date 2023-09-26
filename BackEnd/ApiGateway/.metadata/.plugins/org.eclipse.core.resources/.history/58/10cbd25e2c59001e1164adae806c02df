@@ -1,0 +1,29 @@
+package com.apiGateway.filter;
+
+import java.util.List;
+import java.util.function.Predicate;
+
+import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.stereotype.Component;
+
+@Component
+public class RouteValidator {
+
+	public static final List<String> openApiEndpoints = List.of(
+			"/userAuth/user-login",
+			"/swagger-ui/**",
+			"/v3/api-docs/**");
+
+	public Predicate<ServerHttpRequest> isOpenEndPoint = request -> openApiEndpoints.stream()
+			.anyMatch(uri -> request.getURI().getPath().contains(uri));
+
+	public static final List<String> hrApiEndpoints = List.of("/userManager/get-user-details");
+
+	public Predicate<ServerHttpRequest> isEndPointForHR = request -> hrApiEndpoints.stream()
+			.anyMatch(uri -> request.getURI().getPath().contains(uri));
+	
+	public static final List<String> interviewerApiEndpoints = List.of("/userManager/get-user-details");
+
+	public Predicate<ServerHttpRequest> isEndPointForInterviewer = request -> interviewerApiEndpoints.stream()
+			.anyMatch(uri -> request.getURI().getPath().contains(uri));
+}
