@@ -38,7 +38,7 @@ public class MailAdminManagerServiceImpl implements MailAdminManagerService{
 		
 		ResponseDto responseDto=new ResponseDto();
 		responseDto.setResponseCode(HttpStatus.OK.value());
-		responseDto.setResponseMessage("New mail admin added successfully !!!");
+		responseDto.setMessage("New mail admin added successfully !!!");
 		return responseDto;
 	}
 
@@ -49,7 +49,7 @@ public class MailAdminManagerServiceImpl implements MailAdminManagerService{
 		
 		AllMailAdminResponseDto allMailAdminResponseDto=new AllMailAdminResponseDto();
 		allMailAdminResponseDto.setResponseCode(HttpStatus.OK.value());
-		allMailAdminResponseDto.setResponseMessage("Mail admins fetched successfully !!!");
+		allMailAdminResponseDto.setMessage("Mail admins fetched successfully !!!");
 		allMailAdminResponseDto.setListOfMailAdmin(mailAdminRepository.findAll());
 		return allMailAdminResponseDto;
 	}
@@ -73,7 +73,7 @@ public class MailAdminManagerServiceImpl implements MailAdminManagerService{
 			mailAdminRepository.save(updatedDocument);
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Mail admin updated successfully!!!");
+			responseDto.setMessage("Mail admin updated successfully!!!");
 			return responseDto;
 		}
 		
@@ -93,7 +93,7 @@ public class MailAdminManagerServiceImpl implements MailAdminManagerService{
 			mailAdminRepository.deleteByMailFrom(email);
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Mail admin deleted successfully!!!");
+			responseDto.setMessage("Mail admin deleted successfully!!!");
 			return responseDto;
 		}
 	}

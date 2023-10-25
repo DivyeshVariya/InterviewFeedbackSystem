@@ -99,7 +99,7 @@ public class UserAuthServiceImpl implements UserAuthService{
 			LoginResponseDto loginResponseDto=new LoginResponseDto();
 			loginResponseDto.setJwtToken(token);
 			loginResponseDto.setResponseCode(HttpStatus.OK.value());
-			loginResponseDto.setResponseMessage("Login Successfully...");
+			loginResponseDto.setMessage("Login Successfully...");
 			return loginResponseDto;
 		}
 		catch(BadCredentialsException e)
@@ -124,6 +124,7 @@ public class UserAuthServiceImpl implements UserAuthService{
 				.bodyToMono(ForgetPasswordResponseDto.class)
 				.block();
 		logger.info(response.toString());
+		logger.info(userEmailId);
 		Optional<Users> savedUserFromDB=usersRepository.findByUserEmailId(userEmailId);
 		logger.info(savedUserFromDB.get().toString()+" fetch from db");
 		if(savedUserFromDB.isEmpty())

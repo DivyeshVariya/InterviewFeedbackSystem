@@ -4,5 +4,6 @@ public enum Rating {
 	A,
 	B,
 	C,
-	D
+	D,
+	E
 }

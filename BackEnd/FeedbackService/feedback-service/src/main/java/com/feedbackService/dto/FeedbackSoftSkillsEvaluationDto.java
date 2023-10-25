@@ -20,6 +20,6 @@ public class FeedbackSoftSkillsEvaluationDto {
 	@NotEmpty(message = "Skill should not be empty or null...")
 	private String skill;
 	
-	@CustomAnnoEnumValid(regexp = "A|B|C|D")
+	@CustomAnnoEnumValid(regexp = "A|B|C|D|E")
     private Rating rating;
 }

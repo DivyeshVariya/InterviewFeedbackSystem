@@ -41,7 +41,7 @@ public class ConfigMailManagerServiceImpl implements ConfigMailManagerService {
 
 		ResponseDto responseDto = new ResponseDto();
 		responseDto.setResponseCode(HttpStatus.OK.value());
-		responseDto.setResponseMessage("New mail configuration added successfully !!!");
+		responseDto.setMessage("New mail configuration added successfully !!!");
 		return responseDto;
 	}
 
@@ -55,7 +55,7 @@ public class ConfigMailManagerServiceImpl implements ConfigMailManagerService {
 			configMailRepository.deleteById(id);
 			ResponseDto responseDto = new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Record deleted successfully !!!");
+			responseDto.setMessage("Record deleted successfully !!!");
 			return responseDto;
 		}
 	}
@@ -67,7 +67,7 @@ public class ConfigMailManagerServiceImpl implements ConfigMailManagerService {
 		AllConfigMailResponseDto allConfigMailResponseDto = new AllConfigMailResponseDto();
 		allConfigMailResponseDto.setListOfConfigMail(configMailRepository.findAll());
 		allConfigMailResponseDto.setResponseCode(HttpStatus.OK.value());
-		allConfigMailResponseDto.setResponseMessage("All mail configuration fetched successfully !!!");
+		allConfigMailResponseDto.setMessage("All mail configuration fetched successfully !!!");
 		return allConfigMailResponseDto;
 	}
 
@@ -94,7 +94,7 @@ public class ConfigMailManagerServiceImpl implements ConfigMailManagerService {
 			configMailRepository.save(updatedDocument);
 			ResponseDto responseDto = new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Mail configuration updated successfully !!!");
+			responseDto.setMessage("Mail configuration updated successfully !!!");
 			return responseDto;
 		}
 	}

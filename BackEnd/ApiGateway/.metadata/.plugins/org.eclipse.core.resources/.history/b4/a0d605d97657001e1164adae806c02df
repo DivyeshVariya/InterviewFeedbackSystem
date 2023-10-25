@@ -1,5 +1,0 @@
-package com.apiGateway.exception;
-
-public class AuthorizationHeaderMissing extends Exception {
-
-}

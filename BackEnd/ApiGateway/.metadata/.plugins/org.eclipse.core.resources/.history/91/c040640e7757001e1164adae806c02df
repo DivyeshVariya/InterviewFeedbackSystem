@@ -1,5 +1,0 @@
-package com.apiGateway.exception;
-
-public class UnauthorizedAccessException extends Exception {
-
-}

@@ -1,5 +1,0 @@
-package com.emailService.exception;
-
-public class UnauthorizedAccessException extends Exception {
-
-}

@@ -1,5 +1,0 @@
-package com.apiGateway.utils;
-
-public class JwtHelper {
-
-}

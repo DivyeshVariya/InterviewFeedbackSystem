@@ -28,7 +28,8 @@ public class RouteValidator {
 			"/feedbackManager/handle-feedback-document",
 			"/feedbackManager/download-document",
 			"/feedbackManager/get-feedback-by-documentNo",
-			"/feedbackManager/delete-feedback"
+			"/feedbackManager/delete-feedback",
+			"/feedbackManager/get-hiring-data"
 			);
 
 	public Predicate<ServerHttpRequest> isEndPointForHR = request -> hrApiEndpoints.stream()
@@ -45,7 +46,10 @@ public class RouteValidator {
 			"/feedbackManager/get-feedback-by-documentNo",
 			"/feedbackManager/get-all-feedbacks-interviewer",
 			"/feedbackManager/update-feedback-details",
-			"/feedbackManager/delete-feedback"
+			"/feedbackManager/delete-feedback",
+			"/feedbackManager/get-all-feedback-files-by-interviewer",
+			"/feedbackManager/delete-feedback-file",
+			"/feedbackManager/get-hiring-data"
 			);
 
 	public Predicate<ServerHttpRequest> isEndPointForInterviewer = request -> interviewerApiEndpoints.stream()

@@ -61,7 +61,7 @@ public class UserManagerServiceImpl implements UserManagerService{
 			userInfoFromDB.get().setUserPassword(passwordEncoder.encode(changePasswordDto.getNewPassword()));
 			userManagerRepository.save(userInfoFromDB.get());
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Password Changed successfully...");
+			responseDto.setMessage("Password Changed successfully...");
 			return responseDto;
 		}
 		else
@@ -94,7 +94,7 @@ public class UserManagerServiceImpl implements UserManagerService{
 			logger.info("user updated successfully !!!");
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("User updated successfully !!!");
+			responseDto.setMessage("User updated successfully !!!");
 			return responseDto;
 		}
 	
@@ -114,7 +114,7 @@ public class UserManagerServiceImpl implements UserManagerService{
 			logger.info("user deleted successfully !!!");
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("User deleted successfully !!!");
+			responseDto.setMessage("User deleted successfully !!!");
 			return responseDto;
 		}
 	}

@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,6 +29,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/userAuth")
+//@CrossOrigin(origins = "http://localhost:3000")
 public class UserAuthController {
 	
 	private Logger logger=LoggerFactory.getLogger(UserAuthController.class);
@@ -58,7 +60,7 @@ public class UserAuthController {
 	{
 		ResponseDto responseDto=new ResponseDto();
 		responseDto.setResponseCode(HttpStatus.OK.value());
-		responseDto.setResponseMessage("User logout successfully....");
+		responseDto.setMessage("User logout successfully....");
 		return new ResponseEntity<>(responseDto,HttpStatus.OK);
 	}
 	

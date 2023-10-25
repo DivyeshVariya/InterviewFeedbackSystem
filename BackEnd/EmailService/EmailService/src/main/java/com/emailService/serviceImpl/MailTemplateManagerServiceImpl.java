@@ -38,7 +38,7 @@ public class MailTemplateManagerServiceImpl implements MailTemplateManagerServic
 		
 		ResponseDto responseDto=new ResponseDto();
 		responseDto.setResponseCode(HttpStatus.OK.value());
-		responseDto.setResponseMessage("New mail template added successfully !!!");
+		responseDto.setMessage("New mail template added successfully !!!");
 		return responseDto;
 	}
 
@@ -50,7 +50,7 @@ public class MailTemplateManagerServiceImpl implements MailTemplateManagerServic
 		
 		AllMailTemplateResponseDto allMailTemplateResponseDto=new AllMailTemplateResponseDto();
 		allMailTemplateResponseDto.setResponseCode(HttpStatus.OK.value());
-		allMailTemplateResponseDto.setResponseMessage("All mail templates fetched successfully !!!");
+		allMailTemplateResponseDto.setMessage("All mail templates fetched successfully !!!");
 		allMailTemplateResponseDto.setListOfMailTemplate(mailTemplateRepository.findAll());
 		return allMailTemplateResponseDto;
 	}
@@ -74,7 +74,7 @@ public class MailTemplateManagerServiceImpl implements MailTemplateManagerServic
 			mailTemplateRepository.save(updatedDocument);
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Mail template updated successfully!!!");
+			responseDto.setMessage("Mail template updated successfully!!!");
 			return responseDto;
 		}
 	}
@@ -94,7 +94,7 @@ public class MailTemplateManagerServiceImpl implements MailTemplateManagerServic
 		mailTemplateRepository.deleteById(id);
 		ResponseDto responseDto=new ResponseDto();
 		responseDto.setResponseCode(HttpStatus.OK.value());
-		responseDto.setResponseMessage("Mail template deleted successfully!!!");
+		responseDto.setMessage("Mail template deleted successfully!!!");
 		return responseDto;
 		}
 	}

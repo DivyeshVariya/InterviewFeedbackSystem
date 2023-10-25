@@ -242,3 +242,7 @@
 2023-09-26 11:53:21,346 [Worker-7: Launching config-server (3)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Digital\sts-4.17.1.RELEASE\plugins\javax.annotation_1.3.5.v20221112-0806.jar
 2023-09-26 11:53:21,348 [Worker-7: Launching config-server (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ConfigServer\config-server":
 2023-09-26 11:53:21,351 [Worker-7: Launching config-server (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always compile
+2023-10-03 10:58:11,699 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-03 11:00:33,565 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-03 11:00:33,654 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-10-03 11:00:33,656 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\158563\Documents\practice\InterviewFeedbackSystem\BackEnd\ConfigServer\config-server\src\test\resources

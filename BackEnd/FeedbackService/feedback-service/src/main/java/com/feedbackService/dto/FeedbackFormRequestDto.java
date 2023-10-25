@@ -40,7 +40,7 @@ public class FeedbackFormRequestDto {
 	@Valid
 	private List<FeedbackSoftSkillsEvaluationDto> softSkillsEvaluation; 
 	
-	@CustomAnnoEnumValid(regexp = "NOT_HIRE|HIRE")
+	@CustomAnnoEnumValid(regexp = "HIRE|PENDING|NO_HIRE")
 //	@NotNull(message = "Invalid decision value...")
 //	@Pattern(regexp = "NOT_HIRE|HIRE",message = "invalid input")
 	private HiringDecision hiringDecision;

@@ -86,6 +86,17 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 		return new ResponseEntity<>(errorDetailsForException,HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 	
+	@ExceptionHandler(FeedbackNotFoundException.class)
+	public ResponseEntity<ErrorDetailsForException> handleFeedbackNotFoundException(FeedbackNotFoundException exception,WebRequest webRequest)
+	{
+		ErrorDetailsForException errorDetailsForException =new ErrorDetailsForException();
+		errorDetailsForException.setErrorCode(HttpStatus.NOT_FOUND.name());
+		errorDetailsForException.setMessage(exception.getMessage());
+		errorDetailsForException.setPath(webRequest.getDescription(false));
+		errorDetailsForException.setTimestamp(LocalDateTime.now());
+		return new ResponseEntity<>(errorDetailsForException,HttpStatus.OK);
+	}
+	
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ErrorDetailsForException> handleGlobalException(Exception exception,WebRequest webRequest)
 	{

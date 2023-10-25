@@ -21,12 +21,16 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.feedbackService.dto.AllFeedbackFileResponseDto;
 import com.feedbackService.dto.AllFeedbackFormResponseDto;
 import com.feedbackService.dto.DownloadFileResponseDto;
 import com.feedbackService.dto.FeedbackFormRequestDto;
 import com.feedbackService.dto.FeedbackFormResponseDto;
+import com.feedbackService.dto.HiringDataResponseDto;
+import com.feedbackService.dto.ReportDateRangeDto;
 import com.feedbackService.dto.ResponseDto;
 import com.feedbackService.dto.UpdateFeedbackFormRequestDto;
+import com.feedbackService.enums.HiringDecision;
 import com.feedbackService.exception.FailToDownloadFileException;
 import com.feedbackService.exception.FailToSaveDocumentException;
 import com.feedbackService.exception.FeedbackNotFoundException;
@@ -190,20 +194,21 @@ public class FeedbackManagerServiceImpl implements FeedbackManagerService {
 	@Override
 	public AllFeedbackFormResponseDto getAllFeedbackFormForInterviewer(String interviewerName) {
 		// TODO Auto-generated method stub
+		AllFeedbackFormResponseDto responseDto= new AllFeedbackFormResponseDto();
 		List<FeedbackForm> allSavedForm =feedbackFormManagerRepository.findByInterviewerInfo_InterviewerName(interviewerName);
 		if(allSavedForm.isEmpty())
 		{
-			throw new FeedbackNotFoundException("NO feedbackforms found !!! ");
+//			throw new FeedbackNotFoundException("NO feedbackforms found !!! ");
+			responseDto.setForms(List.of());
+			logger.info("No feedbacks found !!");
 		}
 		else {
-		logger.info("All feedback forms get successfully !!!");
-		
-		AllFeedbackFormResponseDto responseDto= new AllFeedbackFormResponseDto();
+		logger.info("All feedback forms get successfully !!!");		
 		responseDto.setForms(allSavedForm);
+		}
 		responseDto.setResponseCode(HttpStatus.OK.value());
 		responseDto.setResponseMessage("All feedback forms fetched successfully !!");
 		return responseDto;
-		}
 		
 	}
 
@@ -253,5 +258,56 @@ public class FeedbackManagerServiceImpl implements FeedbackManagerService {
 			responseDto.setResponseMessage("Data deleted successfully !!!");
 			return responseDto;
 		}
+	}
+
+	@Override
+	public AllFeedbackFileResponseDto getAllFeedbackFileByInterviewer(String interviewerName) {
+		// TODO Auto-generated method stub
+		return fileManagerService.getFilesByInterviewerName(interviewerName);
+	}
+
+	@Override
+	public ResponseDto deleteFeedbackFile(String fileId) {
+		// TODO Auto-generated method stub
+		ResponseDto responseDto=new ResponseDto();
+		List<String> listOfFormNumber=fileManagerService.deleteFeedbackFile(fileId);
+		if(!listOfFormNumber.isEmpty())
+		{
+		template.delete(new Query(Criteria.where("_id").is(fileId)));
+		feedbackFormManagerRepository.deleteAllById(listOfFormNumber);
+		responseDto.setResponseCode(HttpStatus.OK.value());
+		responseDto.setResponseMessage("File remove successfully !!");
+		}
+		else
+		{
+			responseDto.setResponseCode(HttpStatus.NOT_FOUND.value());
+			responseDto.setResponseMessage("Fail to delete file !!");
+		}
+		return responseDto;
+	}
+
+	@Override
+	public HiringDataResponseDto getHiringData(ReportDateRangeDto dateRange) {
+		// TODO Auto-generated method stub
+		
+		//default time zone
+//		ZoneId defaultZoneId = ZoneId.systemDefault();
+//		
+//		//local date + atStartOfDay() + default time zone + toInstant() = Date
+//        Date date = Date.from(dateRange.getTo().atStartOfDay(defaultZoneId).toInstant());
+		logger.info(Date.from(dateRange.getTo().atStartOfDay(ZoneId.of("UTC")).toInstant()).toString());
+		
+		int pendingCount= feedbackFormManagerRepository.getObjectByDate(Date.from(dateRange.getTo().atStartOfDay(ZoneId.of("UTC")).toInstant()),Date.from(dateRange.getFrom().atStartOfDay(ZoneId.of("UTC")).toInstant()),HiringDecision.PENDING);
+		int notHiredCount= feedbackFormManagerRepository.getObjectByDate(Date.from(dateRange.getTo().atStartOfDay(ZoneId.of("UTC")).toInstant()),Date.from(dateRange.getFrom().atStartOfDay(ZoneId.of("UTC")).toInstant()),HiringDecision.NOT_HIRE);
+		int hiredCount= feedbackFormManagerRepository.getObjectByDate(Date.from(dateRange.getTo().atStartOfDay(ZoneId.of("UTC")).toInstant()),Date.from(dateRange.getFrom().atStartOfDay(ZoneId.of("UTC")).toInstant()),HiringDecision.HIRE);
+		int totalCount=(int)feedbackFormManagerRepository.getObjectByDate(Date.from(dateRange.getTo().atStartOfDay(ZoneId.of("UTC")).toInstant()),Date.from(dateRange.getFrom().atStartOfDay(ZoneId.of("UTC")).toInstant()));
+		HiringDataResponseDto responseDto =new HiringDataResponseDto();
+		responseDto.setPendingApplications(pendingCount);
+		responseDto.setNotHiredApplications(notHiredCount);
+		responseDto.setHiredApplications(hiredCount);
+		responseDto.setTotalApplications(totalCount);
+		responseDto.setResponseCode(HttpStatus.OK.value());
+		responseDto.setResponseMessage("Data fetched successfully !!");
+		return responseDto;
 	}
 }

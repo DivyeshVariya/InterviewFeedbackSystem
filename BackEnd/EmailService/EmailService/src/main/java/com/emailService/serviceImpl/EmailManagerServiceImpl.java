@@ -132,7 +132,7 @@ public class EmailManagerServiceImpl implements EmailManagerService
 		{
 			ForgetPasswordResponseDto forgetPasswordResponseDto=new ForgetPasswordResponseDto();
 			forgetPasswordResponseDto.setResponseCode(HttpStatus.OK.value());
-			forgetPasswordResponseDto.setResponseMessage("Mail sent Successfully...");
+			forgetPasswordResponseDto.setMessage("Mail sent Successfully...");
 			forgetPasswordResponseDto.setNewPassword(newPassword);
 			return forgetPasswordResponseDto;
 		}
@@ -140,7 +140,7 @@ public class EmailManagerServiceImpl implements EmailManagerService
 		{
 			ResponseDto responseDto=new ResponseDto();
 			responseDto.setResponseCode(HttpStatus.OK.value());
-			responseDto.setResponseMessage("Mail sent Successfully...");
+			responseDto.setMessage("Mail sent Successfully...");
 			return responseDto;     
 		}
 		}

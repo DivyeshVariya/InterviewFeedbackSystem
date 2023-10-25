@@ -6,10 +6,13 @@ import java.text.ParseException;
 import org.apache.xmlbeans.impl.xb.xsdschema.All;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.feedbackService.dto.AllFeedbackFileResponseDto;
 import com.feedbackService.dto.AllFeedbackFormResponseDto;
 import com.feedbackService.dto.DownloadFileResponseDto;
 import com.feedbackService.dto.FeedbackFormRequestDto;
 import com.feedbackService.dto.FeedbackFormResponseDto;
+import com.feedbackService.dto.HiringDataResponseDto;
+import com.feedbackService.dto.ReportDateRangeDto;
 import com.feedbackService.dto.ResponseDto;
 import com.feedbackService.dto.UpdateFeedbackFormRequestDto;
 import com.feedbackService.exception.FailToSaveDocumentException;
@@ -32,5 +35,11 @@ public interface FeedbackManagerService {
 	ResponseDto deleteFeedbackForm(String documentNo);
 
 	AllFeedbackFormResponseDto getAllFeedbackFormForInterviewer(String interviewerName);
+
+	AllFeedbackFileResponseDto getAllFeedbackFileByInterviewer(String interviewerName);
+
+	ResponseDto deleteFeedbackFile(String fileId);
+
+	HiringDataResponseDto getHiringData(ReportDateRangeDto dateRange);
 
 }

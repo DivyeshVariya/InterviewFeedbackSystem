@@ -14,5 +14,5 @@ import lombok.ToString;
 public class ResponseDto {
 
 	private int responseCode;
-	private String responseMessage;
+	private String message;
 }
