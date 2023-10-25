@@ -1,0 +1,26 @@
+FrontEnd/node_modules
+FrontEnd/interviewfeedbacksystem/node_modules
+FrontEnd/interviewfeedbacksystem/.gitignore
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+FrontEnd/interviewfeedbacksystem/.pnp
+FrontEnd/interviewfeedbacksystem/.pnp.js
+
+# testing
+FrontEnd/interviewfeedbacksystem/coverage
+
+# production
+FrontEnd/interviewfeedbacksystem/build
+
+# misc
+FrontEnd/interviewfeedbacksystem/.DS_Store
+FrontEnd/interviewfeedbacksystem/.env.local
+FrontEnd/interviewfeedbacksystem/.env.development.local
+FrontEnd/interviewfeedbacksystem/.env.test.local
+FrontEnd/interviewfeedbacksystem/.env.production.local
+
+FrontEnd/interviewfeedbacksystem/npm-debug.log*
+FrontEnd/interviewfeedbacksystem/yarn-debug.log*
+FrontEnd/interviewfeedbacksystem/yarn-error.log*
